@@ -1,0 +1,98 @@
+#outside {
+    z-index: 1;
+    position: absolute;
+    background-color: lightgray;
+    background-image: url("./img/ocha.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 1s;
+    transform-origin: 0;
+}
+
+.open-card {
+    transform: rotateY(90deg);
+}
+
+#outside-title {
+    color: black;
+    font-family: Courier;
+    font-size: 12pt;
+    text-align: center;
+}
+
+#outside-pic {
+    width: 150px;
+    height: 150px;
+}
+
+#outside-help {
+    color: black;
+    font-family: Courier;
+    font-size: 12pt;
+    text-align: center;
+    padding: 20px;
+}
+
+#inside {
+    z-index: 0;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#inside-title {
+    color: black;
+    font-family: Courier;
+    font-size: 12pt;
+    text-align: center;
+}
+
+#inside-pic {
+    width: 50px;
+    height: 150px;
+}
+
+#message {
+    color: black;
+    font-family: Courier;
+    font-size: 12pt;
+    text-align: center;
+}
+
+button {
+    background: silver;
+}
+
+/*my css*/
+p, h1 {
+    text-transform: uppercase;
+    color: beige!important;
+    text-shadow: 2px 2px red!important;
+}
+
+.magic-s {
+    font-stretch: extra-expanded;
+    background-color: beige;
+    color: mediumvioletred!important;
+    font-size: xx-large!important;
+}
+
+.surat {
+    background-image: url("./img/zafar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.karate {
+    background-image: url("./img/karate.jpg")!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
